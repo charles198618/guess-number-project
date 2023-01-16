@@ -1,5 +1,9 @@
+import java.util.Random;
+import java.util.Scanner;
 public class Main {
     public static void main (String[] args) {
-        System.out.println("Guess a number");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Hello! What is your name?");
+        String name = sc.nextLine();
     }
 }
